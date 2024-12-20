@@ -1,0 +1,47 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 590px;
+background-color: hsl(212, 45%, 89%);
+}
+
+.container{
+width: 300px;
+padding: 10px;
+height: 470px;
+border-radius: 20px;
+background-color: white;
+text-align: center;
+font-family: arial;
+}
+
+.image-box{
+background-image: url('image-qr-code.png');
+background-size: cover;
+width: 100%;
+height: 280px;
+border-radius: 20px;
+background-repeat: no-repeat;
+}
+
+h2{
+color: hsl(218, 44%, 22%);
+font-size: 21px;
+font-weight: bolder;
+line-height: 1.4;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+p{
+color: silver;
+font-size: 15px;
+line-height: 1.5;
+}
